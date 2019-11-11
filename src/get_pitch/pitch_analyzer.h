@@ -5,6 +5,7 @@
 
 #include <vector>
 #include <algorithm>
+#include <iomanip>
 
 namespace upc {
   const float MIN_F0 = 20.0F;    ///< Minimum value of pitch in Hertzs
@@ -35,6 +36,8 @@ namespace upc {
 	/// Computes correlation from lag=0 to r.size()
 	///
     void autocorrelation(const std::vector<float> &x, std::vector<float> &r) const;
+    void amdf(const std::vector<float> &x, std::vector<float> &r) const;
+    void cepstrum(const std::vector<float> &x, std::vector<float> &c) const;
 
 	///
 	/// Returns the pitch (in Hz) of input frame x
@@ -44,7 +47,9 @@ namespace upc {
 	///
 	/// Returns true is the frame is unvoiced
 	///
-    bool unvoiced(float pot, float r1norm, float rmaxnorm) const;
+    bool unvoiced(float pot, float r1norm, float rmaxnorm, float zeros) const;
+
+    float zeros(std::vector<float> & x)const;
 
 
   public:
@@ -52,7 +57,8 @@ namespace upc {
 					unsigned int sFreq,			///< Sampling rate in Hertzs
 					Window w=PitchAnalyzer::HAMMING,	///< Window type
 					float min_F0 = MIN_F0,		///< Pitch range should be restricted to be above this value
-					float max_F0 = MAX_F0		///< Pitch range should be restricted to be below this value
+					float max_F0 = MAX_F0	///< Pitch range should be restricted to be below this value
+          
 				 )
 	{
       frameLen = fLen;

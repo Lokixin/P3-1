@@ -1,0 +1,64 @@
+Build started at 2019-11-11T18:15:10.450965
+Main binary: /usr/bin/python3
+Build Options: -Dbuildtype=debug -Dlayout=flat
+Python system: Linux
+The Meson build system
+Version: 0.52.0
+Source dir: /home/dimas/Documentos/Uni/3B/PAV/P3
+Build dir: /home/dimas/Documentos/Uni/3B/PAV/P3/build
+Build type: native build
+Project name: Práctica 3 de PAV - detección de pitch
+Project version: v2.0
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/dimas/Documentos/Uni/3B/PAV/P3/build/meson-private/sanitycheckcpp.cc -o /home/dimas/Documentos/Uni/3B/PAV/P3/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/dimas/Documentos/Uni/3B/PAV/P3/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 7.4.0 "c++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0")
+C++ linker for the build machine: GNU ld.bfd 2.30
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/dimas/Documentos/Uni/3B/PAV/P3/build/meson-private/sanitycheckcpp.cc -o /home/dimas/Documentos/Uni/3B/PAV/P3/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/dimas/Documentos/Uni/3B/PAV/P3/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 7.4.0 "c++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0")
+C++ linker for the host machine: GNU ld.bfd 2.30
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program doxygen found: YES (/usr/bin/doxygen)
+Configuring Doxyfile using configuration
+Build targets in project: 4
+Found ninja-1.8.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/dimas/Documentos/Uni/3B/PAV/P3/build/meson-private/tmp7uq80snl
+Command line:  c++ /home/dimas/Documentos/Uni/3B/PAV/P3/build/meson-private/tmp7uq80snl/testfile.cpp -o /home/dimas/Documentos/Uni/3B/PAV/P3/build/meson-private/tmp7uq80snl/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/7/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/7/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/7/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

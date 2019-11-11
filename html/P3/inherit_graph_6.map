@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classstring.html" title="string" alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node2" href="$classupc_1_1Ext.html" title="upc::Ext" alt="" coords="112,5,183,32"/>
+<area shape="rect" id="node3" href="$classupc_1_1Path.html" title="upc::Path" alt="" coords="108,56,187,83"/>
+<area shape="rect" id="node4" href="$classupc_1_1Directory.html" title="upc::Directory" alt="" coords="235,31,339,57"/>
+<area shape="rect" id="node5" href="$classupc_1_1Filename.html" title="upc::Filename" alt="" coords="235,81,339,108"/>
+</map>

@@ -1,0 +1,42 @@
+[
+  {
+    "directory": "/home/dimas/Documentos/Uni/3B/PAV/P3/bin",
+    "command": "c++ -Ipav@sta -I. -I.. -I../src/include -I../src/docopt_cpp -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ 'pav@sta/src_pav_digital_filter.cpp.o' -MF 'pav@sta/src_pav_digital_filter.cpp.o.d' -o 'pav@sta/src_pav_digital_filter.cpp.o' -c ../src/pav/digital_filter.cpp",
+    "file": "../src/pav/digital_filter.cpp"
+  },
+  {
+    "directory": "/home/dimas/Documentos/Uni/3B/PAV/P3/bin",
+    "command": "c++ -Ipav@sta -I. -I.. -I../src/include -I../src/docopt_cpp -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ 'pav@sta/src_pav_filename.cpp.o' -MF 'pav@sta/src_pav_filename.cpp.o.d' -o 'pav@sta/src_pav_filename.cpp.o' -c ../src/pav/filename.cpp",
+    "file": "../src/pav/filename.cpp"
+  },
+  {
+    "directory": "/home/dimas/Documentos/Uni/3B/PAV/P3/bin",
+    "command": "c++ -Ipav@sta -I. -I.. -I../src/include -I../src/docopt_cpp -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ 'pav@sta/src_pav_wavfile_mono.cpp.o' -MF 'pav@sta/src_pav_wavfile_mono.cpp.o.d' -o 'pav@sta/src_pav_wavfile_mono.cpp.o' -c ../src/pav/wavfile_mono.cpp",
+    "file": "../src/pav/wavfile_mono.cpp"
+  },
+  {
+    "directory": "/home/dimas/Documentos/Uni/3B/PAV/P3/bin",
+    "command": "c++ -Ipav@sta -I. -I.. -I../src/include -I../src/docopt_cpp -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ 'pav@sta/src_pav_keyvalue.cpp.o' -MF 'pav@sta/src_pav_keyvalue.cpp.o.d' -o 'pav@sta/src_pav_keyvalue.cpp.o' -c ../src/pav/keyvalue.cpp",
+    "file": "../src/pav/keyvalue.cpp"
+  },
+  {
+    "directory": "/home/dimas/Documentos/Uni/3B/PAV/P3/bin",
+    "command": "c++ -Ipav@sta -I. -I.. -I../src/include -I../src/docopt_cpp -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ 'pav@sta/src_docopt_cpp_docopt.cpp.o' -MF 'pav@sta/src_docopt_cpp_docopt.cpp.o.d' -o 'pav@sta/src_docopt_cpp_docopt.cpp.o' -c ../src/docopt_cpp/docopt.cpp",
+    "file": "../src/docopt_cpp/docopt.cpp"
+  },
+  {
+    "directory": "/home/dimas/Documentos/Uni/3B/PAV/P3/bin",
+    "command": "c++ -Iget_pitch@exe -I. -I.. -I../src/include -I../src/docopt_cpp -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -MD -MQ 'get_pitch@exe/src_get_pitch_get_pitch.cpp.o' -MF 'get_pitch@exe/src_get_pitch_get_pitch.cpp.o.d' -o 'get_pitch@exe/src_get_pitch_get_pitch.cpp.o' -c ../src/get_pitch/get_pitch.cpp",
+    "file": "../src/get_pitch/get_pitch.cpp"
+  },
+  {
+    "directory": "/home/dimas/Documentos/Uni/3B/PAV/P3/bin",
+    "command": "c++ -Iget_pitch@exe -I. -I.. -I../src/include -I../src/docopt_cpp -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -MD -MQ 'get_pitch@exe/src_get_pitch_pitch_analyzer.cpp.o' -MF 'get_pitch@exe/src_get_pitch_pitch_analyzer.cpp.o.d' -o 'get_pitch@exe/src_get_pitch_pitch_analyzer.cpp.o' -c ../src/get_pitch/pitch_analyzer.cpp",
+    "file": "../src/get_pitch/pitch_analyzer.cpp"
+  },
+  {
+    "directory": "/home/dimas/Documentos/Uni/3B/PAV/P3/bin",
+    "command": "c++ -Ipitch_evaluate@exe -I. -I.. -I../src/include -I../src/docopt_cpp -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -MD -MQ 'pitch_evaluate@exe/src_get_pitch_pitch_evaluate.cpp.o' -MF 'pitch_evaluate@exe/src_get_pitch_pitch_evaluate.cpp.o.d' -o 'pitch_evaluate@exe/src_get_pitch_pitch_evaluate.cpp.o' -c ../src/get_pitch/pitch_evaluate.cpp",
+    "file": "../src/get_pitch/pitch_evaluate.cpp"
+  }
+]
